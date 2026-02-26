@@ -25,20 +25,31 @@
 }
 
 .nav-logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--text-primary);
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
-.logo-bracket {
-  color: var(--accent-color);
-  font-weight: 700;
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.nav-logo:hover {
-  color: var(--accent-color);
+.logo-icon {
+  transition: transform 0.3s ease;
+}
+
+.nav-logo:hover .logo-icon {
+  transform: rotate(360deg);
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-color), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .nav-links {

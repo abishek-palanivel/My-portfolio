@@ -55,7 +55,7 @@ const Contact = ({ isVisible }) => {
             Whether you have a question or just want to say hi, feel free to reach out!
           </p>
           <a 
-            href="https://drive.google.com/file/d/your-resume-id/view" 
+            href="https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view" 
             className="download-resume-btn"
             target="_blank"
             rel="noopener noreferrer"
