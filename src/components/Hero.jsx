@@ -80,7 +80,7 @@ const Hero = () => {
             <div className="profile-ring"></div>
             <div className="profile-ring-2"></div>
             <img 
-              src="https://i.imgur.com/placeholder.jpg" 
+              src="/profile.jpg" 
               alt="Abishek P" 
               className="profile-image"
               onError={(e) => {
