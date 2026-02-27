@@ -11,7 +11,7 @@ const About = ({ isVisible }) => {
             scalable backend systems and modern web applications.
           </p>
           <p>
-            Currently pursuing B.Tech in Computer Science and Business Systems with a CGPA of 7.92, I've gained 
+            Currently pursuing B.Tech in Computer Science and Business Systems, I've gained 
             hands-on experience through internships at SmartED Innovations and Infosys Springboard, where I improved 
             API response times by 25% and built secure multi-user systems.
           </p>
@@ -29,9 +29,10 @@ const About = ({ isVisible }) => {
         <div className="about-info">
           <div className="info-card glass-card">
             <h3>Education</h3>
-            <p className="degree">B.Tech Computer Science and Business Systems</p>
+            <p className="degree">B.Tech – Computer Science and Business Systems</p>
             <p className="college">VSB Engineering College, Karur</p>
-            <p className="cgpa">CGPA: 7.92</p>
+            <p className="duration">2023 – 2027</p>
+            <p className="cgpa">CGPA: 7.88</p>
           </div>
           <div className="info-card glass-card">
             <h3>Location</h3>

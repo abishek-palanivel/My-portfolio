@@ -5,51 +5,51 @@ const Skills = ({ isVisible }) => {
     {
       title: 'Languages',
       skills: [
-        { name: 'Java', level: 90 },
-        { name: 'SQL', level: 85 },
-        { name: 'JavaScript', level: 80 }
+        { name: 'Java', level: 85 },
+        { name: 'SQL', level: 80 },
+        { name: 'JavaScript', level: 75 }
       ]
     },
     {
       title: 'Backend',
       skills: [
-        { name: 'Spring Boot', level: 90 },
-        { name: 'REST APIs', level: 88 },
-        { name: 'JWT Authentication', level: 85 }
+        { name: 'Spring Boot', level: 85 },
+        { name: 'REST APIs', level: 82 },
+        { name: 'JWT Authentication', level: 80 }
       ]
     },
     {
       title: 'Frontend',
       skills: [
-        { name: 'React.js', level: 82 },
-        { name: 'HTML5/CSS3', level: 88 },
-        { name: 'Bootstrap', level: 80 }
+        { name: 'React.js', level: 78 },
+        { name: 'HTML5/CSS3', level: 82 },
+        { name: 'Bootstrap', level: 75 }
       ]
     },
     {
       title: 'Database',
       skills: [
-        { name: 'PostgreSQL', level: 85 },
-        { name: 'MySQL', level: 85 }
+        { name: 'PostgreSQL', level: 80 },
+        { name: 'MySQL', level: 80 }
       ]
     },
     {
       title: 'AI & External APIs',
       skills: [
-        { name: 'Google Gemini AI', level: 80 },
-        { name: 'Gmail API', level: 75 },
-        { name: 'Google Maps API', level: 75 },
-        { name: 'CoinGecko API', level: 70 }
+        { name: 'Google Gemini AI', level: 75 },
+        { name: 'Gmail API', level: 70 },
+        { name: 'Google Maps API', level: 70 },
+        { name: 'CoinGecko API', level: 65 }
       ]
     },
     {
       title: 'Tools & Concepts',
       skills: [
-        { name: 'Git & GitHub', level: 85 },
-        { name: 'Postman', level: 80 },
-        { name: 'OOP', level: 90 },
-        { name: 'DSA', level: 85 },
-        { name: 'MVC Architecture', level: 88 }
+        { name: 'Git & GitHub', level: 80 },
+        { name: 'Postman', level: 75 },
+        { name: 'OOP', level: 85 },
+        { name: 'DSA', level: 80 },
+        { name: 'MVC Architecture', level: 82 }
       ]
     }
   ]

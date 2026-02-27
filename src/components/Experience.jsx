@@ -8,10 +8,8 @@ const Experience = ({ isVisible }) => {
       period: 'Recent',
       type: 'Internship',
       achievements: [
-        'Improved API response time by 25% through optimization techniques',
-        'Built secure multi-user systems using JWT authentication',
-        'Developed REST APIs using Spring Boot and MVC architecture',
-        'Collaborated with cross-functional teams on full-stack features'
+        'Developed RESTful APIs using Spring Boot and integrated PostgreSQL database',
+        'Built responsive React.js interfaces and optimized SQL queries improving response time by 25%'
       ]
     },
     {
@@ -20,10 +18,8 @@ const Experience = ({ isVisible }) => {
       period: 'Virtual Internship',
       type: 'Training',
       achievements: [
-        'Completed comprehensive Java Full Stack Developer program',
-        'Gained hands-on experience with Spring Boot and React.js',
-        'Built multiple full-stack applications from scratch',
-        'Learned industry best practices and design patterns'
+        'Built full-stack applications using Java, JSP, Spring Boot, and MySQL following MVC architecture',
+        'Implemented CRUD modules and backend validation with relational database integration'
       ]
     }
   ]
