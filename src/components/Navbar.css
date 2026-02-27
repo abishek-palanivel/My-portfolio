@@ -36,11 +36,13 @@
 }
 
 .logo-icon {
-  transition: transform 0.3s ease;
+  transition: all 0.5s ease;
+  filter: drop-shadow(0 0 8px rgba(0, 212, 255, 0.5));
 }
 
 .nav-logo:hover .logo-icon {
-  transform: rotate(360deg);
+  transform: rotate(360deg) scale(1.1);
+  filter: drop-shadow(0 0 15px rgba(0, 212, 255, 0.8));
 }
 
 .logo-text {

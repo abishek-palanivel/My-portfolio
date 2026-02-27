@@ -26,16 +26,18 @@ const Navbar = () => {
       <div className="nav-container">
         <a href="#" className="nav-logo">
           <div className="logo-container">
-            <svg className="logo-icon" width="40" height="40" viewBox="0 0 40 40" fill="none">
-              <circle cx="20" cy="20" r="18" stroke="url(#gradient)" strokeWidth="2"/>
-              <path d="M15 25L20 15L25 25" stroke="url(#gradient)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M17 22H23" stroke="url(#gradient)" strokeWidth="2" strokeLinecap="round"/>
+            <svg className="logo-icon" width="45" height="45" viewBox="0 0 45 45" fill="none">
               <defs>
-                <linearGradient id="gradient" x1="0" y1="0" x2="40" y2="40">
+                <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stopColor="#00d4ff"/>
+                  <stop offset="50%" stopColor="#0ea5e9"/>
                   <stop offset="100%" stopColor="#7c3aed"/>
                 </linearGradient>
               </defs>
+              <circle cx="22.5" cy="22.5" r="20" stroke="url(#logoGradient)" strokeWidth="2.5" opacity="0.3"/>
+              <circle cx="22.5" cy="22.5" r="16" stroke="url(#logoGradient)" strokeWidth="2"/>
+              <text x="22.5" y="30" fontSize="20" fontWeight="bold" fill="url(#logoGradient)" textAnchor="middle" fontFamily="Arial, sans-serif">A</text>
+              <path d="M15 28 L22.5 12 L30 28" stroke="url(#logoGradient)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" opacity="0.5"/>
             </svg>
             <span className="logo-text">Abishek</span>
           </div>
@@ -64,7 +66,7 @@ const Navbar = () => {
           ))}
           <li>
             <a 
-              href="https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view" 
+              href="https://drive.google.com/file/d/1-Ln5s3BymOFg8uezIBl_A1I4edyH61ft/view?usp=sharing" 
               className="resume-btn"
               target="_blank"
               rel="noopener noreferrer"

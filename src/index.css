@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="%2300d4ff" opacity="0.3"/><circle cx="12" cy="12" r="3" fill="%2300d4ff"/></svg>') 12 12, auto;
+}
+
+a, button {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="%237c3aed" opacity="0.4"/><circle cx="12" cy="12" r="4" fill="%2300d4ff"/></svg>') 12 12, pointer;
 }
 
 :root {
