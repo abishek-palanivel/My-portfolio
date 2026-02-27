@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Hero.css'
-import profilePhoto from '/photo.jpg'
+import profilePhoto from '../assets/photo.jpg'
 
 const Hero = () => {
   const [text, setText] = useState('')
