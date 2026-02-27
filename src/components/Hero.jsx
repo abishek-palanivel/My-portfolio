@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Hero.css'
+import profilePhoto from '/photo.jpg'
 
 const Hero = () => {
   const [text, setText] = useState('')
@@ -80,7 +81,7 @@ const Hero = () => {
             <div className="profile-ring"></div>
             <div className="profile-ring-2"></div>
             <img 
-              src="/photo.jpg" 
+              src={profilePhoto} 
               alt="Abishek P" 
               className="profile-image"
             />
