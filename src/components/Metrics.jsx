@@ -12,7 +12,7 @@ const Metrics = ({ isVisible }) => {
   const metrics = [
     { key: 'dsa', label: 'DSA Problems Solved', target: 100, suffix: '+' },
     { key: 'projects', label: 'Full Stack Projects', target: 4, suffix: '' },
-    { key: 'internships', label: 'Internship Experience', target: 1, suffix: '' },
+    { key: 'internships', label: 'Internship Experience', target: 2, suffix: '' },
     { key: 'performance', label: 'Performance Boost', target: 25, suffix: '%' }
   ]
 
