@@ -10,9 +10,9 @@ const Achievements = ({ isVisible }) => {
     },
     {
       icon: '📜',
-      title: 'TechA Certification',
+      title: 'Java Full Stack Developer Certification',
       description: 'Completed Java Full Stack Developer Certification from TechA',
-      link: null
+      link: 'https://drive.google.com/file/d/1YHeEu0sY8eBlp7MXCndjE-62SyTzwY8J/view?usp=sharing'
     },
     {
       icon: '🚀',
