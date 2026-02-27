@@ -83,18 +83,6 @@ const Hero = () => {
               src="/photo.jpg" 
               alt="Abishek P" 
               className="profile-image"
-              onError={(e) => {
-                e.target.style.display = 'none';
-                const placeholder = document.createElement('div');
-                placeholder.className = 'profile-placeholder';
-                placeholder.innerHTML = `
-                  <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                    <circle cx="12" cy="7" r="4"/>
-                  </svg>
-                `;
-                e.target.parentElement.appendChild(placeholder);
-              }}
             />
           </div>
         </div>

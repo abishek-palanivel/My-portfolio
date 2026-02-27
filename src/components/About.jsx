@@ -30,6 +30,7 @@ const About = ({ isVisible }) => {
           <div className="info-card glass-card">
             <h3>Education</h3>
             <p className="degree">B.Tech Computer Science and Business Systems</p>
+            <p className="college">VSB Engineering College, Karur</p>
             <p className="cgpa">CGPA: 7.92</p>
           </div>
           <div className="info-card glass-card">
