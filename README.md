@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 
 ## 🌟 Live Demo
 
-Visit the live site: [abishek-portfolio-51.netlify.app](https://abishek-portfolio-51.netlify.app)
+Visit the live site: [abishekp-portfolio.netlify.app](https://abishekp-portfolio.netlify.app)
 
 ## 💼 About
 
