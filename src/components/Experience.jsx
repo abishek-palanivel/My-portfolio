@@ -5,7 +5,7 @@ const Experience = ({ isVisible }) => {
     {
       role: 'Full Stack Developer Intern',
       company: 'SmartED Innovations',
-      period: 'Recent',
+      period: 'Jan 2025 – Mar 2025',
       type: 'Internship',
       achievements: [
         'Developed RESTful APIs using Spring Boot and integrated PostgreSQL database',
@@ -15,8 +15,8 @@ const Experience = ({ isVisible }) => {
     {
       role: 'Java Full Stack Developer',
       company: 'Infosys Springboard',
-      period: 'Virtual Internship',
-      type: 'Training',
+      period: 'Dec 2024 – Feb 2025',
+      type: 'Virtual Internship',
       achievements: [
         'Built full-stack applications using Java, JSP, Spring Boot, and MySQL following MVC architecture',
         'Implemented CRUD modules and backend validation with relational database integration'
