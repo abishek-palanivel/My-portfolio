@@ -6,7 +6,7 @@ const Projects = ({ isVisible }) => {
       title: 'Smart Booking & Establishment Management Platform',
       description: 'A comprehensive platform for managing bookings and establishments with real-time availability tracking, user authentication, and admin dashboard.',
       tech: ['Spring Boot', 'React.js', 'PostgreSQL', 'JWT', 'REST API'],
-      github: 'https://github.com/abishek-palanivel/My-portfolio',
+      github: 'https://github.com/abishek-palanivel/opennova',
       highlights: ['Multi-user system', 'Real-time updates', 'Secure authentication']
     },
     {
