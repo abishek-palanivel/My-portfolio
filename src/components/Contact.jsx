@@ -55,7 +55,7 @@ const Contact = ({ isVisible }) => {
             Whether you have a question or just want to say hi, feel free to reach out!
           </p>
           <a 
-            href="https://drive.google.com/file/d/1xWEFuGW4Yer4KaME2RHUyUgyMwmU4M5N/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1V63MVFbYOoO_l0UfqCY1ZSkizMSlGxio/view?usp=sharing" 
             className="download-resume-btn"
             target="_blank"
             rel="noopener noreferrer"

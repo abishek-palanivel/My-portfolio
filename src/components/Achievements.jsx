@@ -15,6 +15,18 @@ const Achievements = ({ isVisible }) => {
       link: 'https://drive.google.com/file/d/1YHeEu0sY8eBlp7MXCndjE-62SyTzwY8J/view?usp=sharing'
     },
     {
+      icon: '🎓',
+      title: 'Infosys Springboard Internship 6.0',
+      description: 'Carbon Footprint Monitoring Application - Virtual Internship Certificate',
+      link: 'https://drive.google.com/file/d/1f1mNNicYSl_V-dBV6Zeit0b8Df-YlugI/view?usp=sharing'
+    },
+    {
+      icon: '💼',
+      title: 'SmartED Innovations Internship',
+      description: 'Full Stack Web Development Internship Completion Certificate',
+      link: 'https://drive.google.com/file/d/1WglEChP_L9VR4CKQq4L9YYVVHJD6Teiu/view?usp=sharing'
+    },
+    {
       icon: '🚀',
       title: 'Performance Optimization',
       description: 'Achieved 25% improvement in API response time during internship',
