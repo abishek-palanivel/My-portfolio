@@ -15,7 +15,7 @@ const Experience = ({ isVisible }) => {
     {
       role: 'Java Full Stack Developer',
       company: 'Infosys Springboard',
-      period: 'Dec 2025 – Feb 2026',
+      period: 'Nov 2025 – Jan 2026',
       type: 'Virtual Internship',
       achievements: [
         'Built full-stack applications using Java, JSP, Spring Boot, and MySQL following MVC architecture',
