@@ -52,7 +52,7 @@ const Achievements = ({ isVisible }) => {
       <h2 className="section-title">Achievements</h2>
       <div className="achievements-grid">
         {achievements.map((achievement, idx) => (
-          <div key={idx} className="achievement-card glass-card">
+          <div key={`${idx}-v2`} className="achievement-card glass-card">
             <div className="achievement-icon">{achievement.icon}</div>
             <h3 className="achievement-title">{achievement.title}</h3>
             <p className="achievement-description">{achievement.description}</p>
