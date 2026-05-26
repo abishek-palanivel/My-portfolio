@@ -1,6 +1,7 @@
 import './Achievements.css'
 
 const Achievements = ({ isVisible }) => {
+  // Updated: 2026-04-10 - Added NPTEL certificate
   const achievements = [
     {
       icon: '🏆',
