@@ -27,6 +27,12 @@ const Achievements = ({ isVisible }) => {
       link: 'https://drive.google.com/file/d/1WglEChP_L9VR4CKQq4L9YYVVHJD6Teiu/view?usp=sharing'
     },
     {
+      icon: '🏅',
+      title: 'NPTEL Programming in Java',
+      description: 'Programming in Java - Silver Medal (85%) and Elite Certificate from NPTEL',
+      link: 'https://drive.google.com/file/d/1scrFneAl6jH1TdbxCmH8zijxISzJ2u4f/view?usp=sharing'
+    },
+    {
       icon: '🚀',
       title: 'Performance Optimization',
       description: 'Achieved 25% improvement in API response time during internship',
