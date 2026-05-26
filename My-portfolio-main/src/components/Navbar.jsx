@@ -1,3 +1,4 @@
+// Updated: 2026-05-26 - Synchronized resume link
 import { useState, useEffect } from 'react'
 import './Navbar.css'
 
@@ -66,7 +67,7 @@ const Navbar = () => {
           ))}
           <li>
             <a 
-              href="https://drive.google.com/file/d/1V63MVFbYOoO_l0UfqCY1ZSkizMSlGxio/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1WgTckwxrS9y2UrB4Zr9ad1ZXvz6DQO_-/view?usp=sharing" 
               className="resume-btn"
               target="_blank"
               rel="noopener noreferrer"

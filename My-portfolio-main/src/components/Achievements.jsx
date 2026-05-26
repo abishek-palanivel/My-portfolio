@@ -1,6 +1,7 @@
 import './Achievements.css'
 
 const Achievements = ({ isVisible }) => {
+  // Updated: 2026-04-10 - Added NPTEL certificate
   const achievements = [
     {
       icon: '🏆',
@@ -27,6 +28,12 @@ const Achievements = ({ isVisible }) => {
       link: 'https://drive.google.com/file/d/1WglEChP_L9VR4CKQq4L9YYVVHJD6Teiu/view?usp=sharing'
     },
     {
+      icon: '🏅',
+      title: 'NPTEL Programming in Java',
+      description: 'Programming in Java - Silver Medal (85%) and Elite Certificate from NPTEL',
+      link: 'https://drive.google.com/file/d/1scrFneAl6jH1TdbxCmH8zijxISzJ2u4f/view?usp=sharing'
+    },
+    {
       icon: '🚀',
       title: 'Performance Optimization',
       description: 'Achieved 25% improvement in API response time during internship',
@@ -45,7 +52,7 @@ const Achievements = ({ isVisible }) => {
       <h2 className="section-title">Achievements</h2>
       <div className="achievements-grid">
         {achievements.map((achievement, idx) => (
-          <div key={idx} className="achievement-card glass-card">
+          <div key={`${idx}-v2`} className="achievement-card glass-card">
             <div className="achievement-icon">{achievement.icon}</div>
             <h3 className="achievement-title">{achievement.title}</h3>
             <p className="achievement-description">{achievement.description}</p>

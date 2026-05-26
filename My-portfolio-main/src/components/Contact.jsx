@@ -54,8 +54,9 @@ const Contact = ({ isVisible }) => {
             I'm currently looking for full-time opportunities as a Java Full Stack Developer. 
             Whether you have a question or just want to say hi, feel free to reach out!
           </p>
+          {/* Updated resume link */}
           <a 
-            href="https://drive.google.com/file/d/1V63MVFbYOoO_l0UfqCY1ZSkizMSlGxio/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1WgTckwxrS9y2UrB4Zr9ad1ZXvz6DQO_-/view?usp=sharing" 
             className="download-resume-btn"
             target="_blank"
             rel="noopener noreferrer"
